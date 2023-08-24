@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding: 0px 0px;
+}
+.container-topo {
+    padding: 35px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .topo {
+    color: #db86a8;
+
+  }
+  .container-logo {
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+  } 
+  
+  .container-links {
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  } 
+  
+  .container-links a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #233032;
+  }
+  .container-logo-imagem {
+      width: 100px;
+      height: 100px;
+  }
+  .container-logo-imagem img {
+      width: 100%;
+      height: 100%;
+  }
+  .container-logo p {
+    font-size: 12px;
+      font-weight: 600;
+      color: #2f86d6;
+  }
+
+  .secao {
+	background-color: #2f86d6;
+	padding: 50px 0px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.container-texto{
+	color: #000000;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+  max-width: 40%;
+}
+
+.container-banner {
+  max-width: 60%;
+}
+
+.container-banner img {
+	width: 100%;
+  height: 100%;
+	object-fit: cover;
+}
+
+.container-texto h2 {
+	font-size: 28px;
+}
+
+  
+.topo {
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.topo span {
+  color: #3cbd87;
+  font-size: 18px;
+}
+
+.main {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-produtos {
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+.card-produto {
+  flex: 1 1 300px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 1px gray;
+}
+
+.container-img {
+  height: 200px;
+}
+
+.container-imagem img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.container-info {
+  padding: 0px 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-info h3 {
+  font-size: 18px;
+}
+
+.container-preco {
+  padding: 10px;
+  border-top: 1px solid #c9c4c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-icone {
+  padding: 5px;
+  border: 1px solid #c9c4c4;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.container-caracteristica {
+    height: auto;
+    padding: 100px 20px;
+    background-image: url("img/sorveteria.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.container-rodape {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: rgb(224, 221, 221);
+  }
+  .container-img-rodape {
+    width: 100px;
+  }
+  .container-imagem img {
+    width: 100%;
+    height: 100%;
+  }
+  .container-contato {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .container-contato div {
+    padding: 10px 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    flex: 1 1 240px;
+    text-align: center;
+  }
+  
+  .container-descricao {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .container-descricao a {
+    width: 40px;
+    height: 40px;
+    background-image: url("./img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #db86a8;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+  }
+  
+  .container-redes-sociais img {
+    width: 30px;
+    margin-right: 5px;
+  }
+  
+  
+
