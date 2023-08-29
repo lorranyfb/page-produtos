@@ -8,58 +8,68 @@
 }
 
 body {
-    padding: 0px 0px;
+  padding: 0px 0px;
 }
-.container-topo {
-    padding: 35px 50px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
 
-  .topo {
-    color: #db86a8;
+.secao-topo {
+  padding: 35px 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #2a70b2;
+}
 
-  }
-  .container-logo {
-    width: 285px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;  
-  } 
+.topo {
+  color: #f99fc3;
+}
+ 
+.container-logo {
+  width: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.topo {
+  width: 100%;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.topo span {
+  color: #fcf457;
+  font-size: 18px;
+}
   
-  .container-links {
-    width: 385px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
-  } 
+.container-links {
+  width: 385px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+} 
   
-  .container-links a {
-    font-weight: 600;
-    text-decoration: none;
-    color: #233032;
-  }
-  .container-logo-imagem {
-      width: 100px;
-      height: 100px;
-  }
-  .container-logo-imagem img {
-      width: 100%;
-      height: 100%;
-  }
-  .container-logo p {
-    font-size: 12px;
-      font-weight: 600;
-      color: #2f86d6;
-  }
+.container-links a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+}
 
-  .secao {
-	background-color: #2f86d6;
-	padding: 50px 0px;
+.container-logo-imagem {
+  width: 100px;
+  height: 100px;
+}
+
+.container-logo-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.secao-banner {
+	background-color: #f8f6f6;
+	padding: 60px 0px;
 }
 
 .container {
@@ -80,6 +90,16 @@ body {
   max-width: 40%;
 }
 
+.container-texto h2 {
+	font-size: 30px;
+  text-align: justify;
+}
+
+.container-texto p {
+  font-size: 20px;
+  text-align: justify;
+}
+
 .container-banner {
   max-width: 60%;
 }
@@ -90,24 +110,8 @@ body {
 	object-fit: cover;
 }
 
-.container-texto h2 {
-	font-size: 28px;
-}
-
-  
-.topo {
-  width: 100%;
-  padding: 15px 0px;
-  text-align: center;
-}
-
-.topo span {
-  color: #3cbd87;
-  font-size: 18px;
-}
-
-.main {
-  background-color: #f0f0f0;
+.secao-produtos {
+  background-color: #2a70b2;
   padding: 50px 20px;
   display: flex;
   justify-content: center;
@@ -122,9 +126,9 @@ body {
 }
 
 .card-produto {
+  background-color: #f99fc3;
   flex: 1 1 300px;
   border-radius: 4px;
-  box-shadow: 1px 1px 10px 1px gray;
 }
 
 .container-img {
@@ -151,7 +155,7 @@ body {
 
 .container-preco {
   padding: 10px;
-  border-top: 1px solid #c9c4c4;
+  border-top: 1px solid #fcf457;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,23 +163,33 @@ body {
 
 .container-icone {
   padding: 5px;
-  border: 1px solid #c9c4c4;
+  border: 1px solid #fcf457;
   border-radius: 8px;
   cursor: pointer;
   display: flex;
   justify-content: center;
 }
 
-.container-caracteristica {
-    height: auto;
-    padding: 100px 20px;
-    background-image: url("img/sorveteria.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.container-eventos {
+  height: auto;
+  padding: 100px 20px;
+  background-image: url("img/sorveteria.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-eventos h3 {
+  color: #f8f6f6;
+  font-size: 30px;
+}
+
+
+
+
+
 
 .container-rodape {
     padding: 30px 20px;
@@ -234,5 +248,3 @@ body {
     margin-right: 5px;
   }
   
-  
-
