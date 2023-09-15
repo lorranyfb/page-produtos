@@ -57,6 +57,10 @@ body {
   color: #ffffff;
 }
 
+.container-links a:hover {
+  color:#fcf457;
+}
+
 .container-logo-imagem {
   width: 100px;
   height: 100px;
@@ -182,69 +186,88 @@ body {
 }
 
 .container-eventos h3 {
-  color: #f8f6f6;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.container-eventos h2 {
+  color:#ffffff;
   font-size: 30px;
 }
 
+.botao {
+  background-color: #f99fc3;
+  color: #f8f6f6;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
 
-
-
-
+.botao:hover {
+  color: #000000;
+  background-color: #fcf457;
+}
 
 .container-rodape {
-    padding: 30px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 60px;
-    background-color: rgb(224, 221, 221);
-  }
-  .container-img-rodape {
-    width: 100px;
-  }
-  .container-imagem img {
-    width: 100%;
-    height: 100%;
-  }
-  .container-contato {
-    width: 100%;
-    max-width: 1024px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .container-contato div {
-    padding: 10px 0;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 4px;
-    flex: 1 1 240px;
-    text-align: center;
-  }
-  
-  .container-descricao {
-    width: 100%;
-    max-width: 1024px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-  .container-descricao a {
-    width: 40px;
-    height: 40px;
-    background-image: url("./img/seta-para-cima.png");
-    background-position: center;
-    background-size: cover;
-    background-color: #db86a8;
-    border-radius: 4px;
-    position: absolute;
-    bottom: 60px;
-    right: 0px;
-  }
-  
-  .container-redes-sociais img {
-    width: 30px;
-    margin-right: 5px;
-  }
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  background-color: rgb(224, 221, 221);
+}
+
+.container-img-rodape {
+  width: 100px;
+}
+
+.container-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-contato {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container-contato div {
+  padding: 10px 0;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  flex: 1 1 240px;
+  text-align: center;
+}
+
+.container-descricao {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container-descricao a {
+  width: 40px;
+  height: 40px;
+  background-image: url("./img/seta-para-cima.png");
+  background-position: center;
+  background-size: cover;
+  background-color: #db86a8;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
+
+.container-redes-sociais img {
+  width: 30px;
+  margin-right: 5px;
+}
   
